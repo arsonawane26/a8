@@ -27,6 +27,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'Dock2'
-    repository: 'as-docker-repo2'
+    repository: 'amitsonaw / as-docker-repo2'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
